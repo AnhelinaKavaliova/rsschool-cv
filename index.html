@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="box">
+    <header class="header">
+        <div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#contacts" class="nav">Contacts</a></li>
+                    <li><a href="#abot" class="nav">About</a></li>
+                    <li><a href="#skills" class="nav">Skills</a></li>
+                    <li><a href="#code" class="nav">Code</a></li>
+                    <li><a href="#education" class="nav">Education</a></li>
+                    <li><a href="#languages" class="nav">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="main-box">
+            <section class="left-part">
+                <div>
+                    <h1 class="name">Anhelina Kavaliova</h1>
+                    <img class="img" src="https://raw.githubusercontent.com/AnhelinaKavaliova/rsschool-cv/rsschool-cv-html/photo_5224733119385550131_y.jpg" alt="my photo">
+                    <section id="contacts">
+                        <h2 class="section-title">Contacts</h2>
+                        <ul>
+                            <li><b>Email:</b> angelinakovaleva228@gmail.com</li>
+                            <li><b>Phone:</b> +375 44 796 4418</li>
+                            <li><b>Discord(@GitHub-username):</b> Anhelina Kavaliova (@anhelinaKa)</li>
+                            <li><b>LinkedIn:</b><Br>Anhelina Kavaliova</li>
+                        </ul>
+                    </section>
+
+                    <section id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        <ul>
+                            <li><b>C/C++</b></li>
+                            <li><b>illustrator (Figma, Adobe)</b> </li>
+                            <li><b>Photoshop</b></li>
+                            <li><b>Excel</b><Br></li>
+                        </ul>
+                    </section>
+
+                    <section id="languages">
+                        <h2 class="section-title">Languages</h2>
+                        <ul>
+                            <li><b>English B1 (B2 in the process )</b></li>
+                            <li><b>Belarusian - native</b> </li>
+                            <li><b>Russian - native</b></li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+    
+            <section class="right-part">
+                <aside>
+                    <section class="section" id="skills">
+                        <h2 class="section-title">About</h2>
+                        <p>I like to learn and improve my skills, I work well in a team and dedicate practically all my free time to programming. I like to solve difficult problems and create something new.</p>
+                    </section>
+
+                    <section id="code">
+                        <h2 class="section-title">Code</h2>
+                            <div class="codeex">
+                                <pre>
+                                    int main()
+                                    {
+                                        int n;
+                                        do
+                                        {
+                                            printf("Enter n: ");
+                                            scanf("%i", &n);
+                                        }
+                                        while(n&lt;2);
+                                    
+                                        int x0=0, x1=1;
+                                        int score=1;
+                                        int fib;
+                                        for( ; score&lt;n; score++)
+                                        {
+                                            if(score%2!=0)
+                                            {
+                                                fib=x0+x1;
+                                                x0=fib;
+                                            }
+                                            else
+                                            {
+                                                fib+=x1;
+                                                x1=fib;
+                                            }
+                                        }
+                                        printf("Xn=%i\n",fib);
+                                    }
+                                </pre>
+                            </div>
+                    </section>
+
+                    <section id="education">
+                        <h2 class="section-title">Education</h2>
+                            <ul>
+                                <li>BSUIR (1 course, process)</li>
+                                <li>CS50</li>
+                                <li>RS School (process)</li>
+                            </ul>
+                    </section>
+                </aside>
+            </section>
+    
+    <footer class="footer">
+        <a class="github" href="https://github.com/AnhelinaKavaliova">Github</a>
+        <a href="https://rs.school/js/">
+                <img src="https://yt3.ggpht.com/ytc/AMLnZu9wGJVaXq8yPIc_HMJfXYKMftqQL_3oArV0LnTm=s900-c-k-c0x00ffffff-no-rj" alt="Logo RSS" width="80" height="50">
+        </a>
+        <p><strong>2022</strong></p>
+    </footer>
+    </div>
+</body> 
+</html>
